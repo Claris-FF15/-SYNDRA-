@@ -17,7 +17,9 @@ A = int (input ( " donnez une longueur1 d'un triangle : "))
 B = int ( input (" donnez une longueur2 d'un triangle : "))
 C = int ( input ( " donnez une longueur3 d'un triangle : "))
 D = ( A + B ) 
-if D >= C :
+E = ( B + C )
+F = ( A + C ) 
+if D >= C or E >= A or F >= B :
      print ( " c'est un triangle " )
 else:
      print ( " ce n'est pas un triangle " )
