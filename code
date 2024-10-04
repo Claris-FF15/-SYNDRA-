@@ -41,7 +41,7 @@ Year = int ( input ( " enter a year : ") )
 
 if Month ( 4,6,9,11 ) and Day < 30 :
     print ( " correct date " )
-elif Month ( 1,3,5,7,8,10,12 ) and Day < 21 :
+elif Month ( 1,3,5,7,8,10,12 ) and Day < 31 :
     print ( " correct date " )
 elif ( Month == 2 and Year %4==0 ) and Day < 29 : 
     print ( " correct date " )
