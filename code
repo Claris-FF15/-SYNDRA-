@@ -39,9 +39,9 @@ Day = int ( input (" enter a day :  ") )
 Month = int ( input ( " enter a month : " ) )
 Year = int ( input ( " enter a year : ") )
 
-if (Month == 4 or Month == 6  or Month== 9 or Month == 11 ) and Day < 30 :
+if Month ( 4,6,9,11 ) and Day < 30 :
     print ( " correct date " )
-elif ( Month== 1 or Month==3 or Month==5 or Month==7 or Month==9 or Month==10 or Month==12) and Day < 21 :
+elif Month ( 1,3,5,7,8,10,12) and Day < 21 :
     print (" correct date ")
 elif ( Month == 2 and Year %4==1) and Day < 29 : 
     print (" correct date ")
