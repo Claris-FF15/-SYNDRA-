@@ -42,7 +42,7 @@ Day = int ( input (" enter a day :  ") )
 Month = int ( input ( " enter a month : " ) )
 Year = int ( input ( " enter a year : ") )
 
-if ( Year < 0 or Year > 2999 ) or ( Month < 1 or Month > 12 ) :
+if ( Year < 0 or Year > 2999 ) or ( Month < 1 or Month > 12 ) or Day <= 0  :
     print( " incorrect date " )
 elif (Month ==4 or Month==6 or Month==9 or Month==11 ) and Day > 30 :
     print ( " incorrect date " )
