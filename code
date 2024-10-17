@@ -20,7 +20,7 @@ D = ( A + B )
 E = ( B + C )
 F = ( A + C ) 
 
-if D >= C or E >= A or F >= B :
+if D >= C and E >= A and F >= B :
      print ( " c'est un triangle " )
 else:
      print ( " ce n'est pas un triangle " )
