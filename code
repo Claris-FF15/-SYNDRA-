@@ -54,3 +54,12 @@ elif  Month == 2 and  Day > 28:
     print(" incorrect date ")
 else : 
     print ( " correct date " )
+
+# sapin de noel 
+
+hauteur = int ( input ( " hauteur ?"))
+for n in range (hauteur):
+    if n < 1:
+        print("_" *( hauteur-n), "*" ,"_" * (hauteur -n))
+    else :
+        print ( "_" * ( hauteur - n - 1), "*" , "_" * (((n-1)*2)+1 ),"*","_" * ( hauteur - n - 1))
