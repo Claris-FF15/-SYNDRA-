@@ -1,0 +1,19 @@
+""" exo juste prix /2 afin de trouver avec une liste"""
+
+import random
+list = random.sample(range(0,10),5)
+list.sort()
+print(list)
+def found (num):
+    start= 0
+    end = len(list) - 1
+    while start <= end:
+        mid = (start + end) // 2
+        if list [mid] == num:
+            print (mid) 
+        elif list [mid] < num:
+            start = mid + 1
+        else:
+            end = mid - 1
+    return -1 #si le nombre n'est pas dans la boucle
+print (found(5))
