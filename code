@@ -63,3 +63,17 @@ for n in range (hauteur):
         print("_" *( hauteur-n), "*" ,"_" * (hauteur -n))
     else :
         print ( "_" * ( hauteur - n - 1), "*" , "_" * (((n-1)*2)+1 ),"*","_" * ( hauteur - n - 1))
+
+
+""" exo avec une liste d'entier , creer fonction qui retourne la position de d'une valeur rechercher"""
+
+import random
+list = random.sample(range(1,1000),4)
+list.sort()
+print (list)
+
+nombre = int ( input (" donnez le chiffre à rechercher  : "))
+for i in range( len (list)):
+    if nombre == list [i]:
+        print (i)
+    
